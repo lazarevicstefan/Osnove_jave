@@ -2,6 +2,28 @@ package d11_09_2023.Zadatak_01;
 
 public class Main {
     public static void main(String[] args) {
+        /*
+        Kreirati klasu Autor koja ima
+        -ime i prezime
+        -konstuktore koje mislite da su vam potrebni
+        -gettere i settere za atribute
+        -metodu print koja stampa u formatu:
+        (ime autora) (prezime autora)
+
+        Kreirati klasu Knjiga koji ima:
+        -ISBN
+        -naziv
+        -godina izdanja
+        -autor
+        -konstuktore koje mislite da su vam potrebni
+        -gettere i settere za atribute
+        -metodu print koja stampa u formatu (izbegavati dupliranje koda):
+        (ISBN)
+        (naziv) - (godina izdanja)
+        autor: (ime autora) (prezime autora)
+
+            U glavnom programu napraviti vise autora sa vise knjiga.
+         */
         Autor autor1 = new Autor("Pera Peric");
         Autor autor2 = new Autor("Sima Simic");
 
