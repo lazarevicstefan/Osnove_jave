@@ -71,5 +71,23 @@ public class Main {
         Broj redova po strani [3]
         | 1 | 2 | 3 | 4 | (Objasnjenje: Ovo je paginator.)
         */
+        TableRow tableRow2 = new TableRow();
+        tableRow2.addRowCell("Stefan");
+        tableRow2.addRowCell("Lazarevic");
+        tableRow2.addRowCell("28");
+
+        TableRow tableRow3 = new TableRow();
+        tableRow3.addRowCell("Pera");
+        tableRow3.addRowCell("Peric");
+        tableRow3.addRowCell("27");
+
+        TableHeader tableHeader = new TableHeader();
+        tableHeader.addHeaderCell("First Name");
+        tableHeader.addHeaderCell("Last Name");
+        tableHeader.addHeaderCell("Last Name");
+
+        tableHeader.print();
+        tableRow2.print();
+        tableRow3.print();
     }
 }
